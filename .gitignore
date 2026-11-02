@@ -75,3 +75,54 @@ chromadb/
 *.pem
 *.key
 *.crt
+
+# ==========================================
+# Binary Model Weights & Checkpoints
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# ==========================================
+# Local Runtime Databases & Output Stores
+# ==========================================
+data/*.sqlite
+data/*.sqlite3
+data/*.db
+data/organized_test/
+
+# ==========================================
+# Large Datasets & Archives (> 100 MB Risk)
+# ==========================================
+data/screenshots.zip
+data/screenshots/
+
+# ==========================================
+# Generated Binary Office & PDF Documents (Source MD Tracked)
+# ==========================================
+Progress_Report_*.docx
+Progress_Report_*.pdf
+*Report*.docx
+*Report*.pdf
+
+# ==========================================
+# Transient Development & Build Folders
+# ==========================================
+scratch/
+.dist/
+
+# ==========================================
+# Local Dataset Images & Generated Contact Sheets
+# ==========================================
+experiments/intelligence/external/images/
+experiments/intelligence/external_v2/images/
+experiments/intelligence/unseen/images/
+data/categorized_screenshots.json
+**/contact_sheets/
+**/corrected_contact_sheets/
+experiments/**/*.zip
+data/backups/
+data/*.bak
+data/chroma/
+error/

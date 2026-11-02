@@ -1,0 +1,203 @@
+{
+  "evaluation_timestamp": "2026-10-30T13:55:43.193654+00:00",
+  "total_targets_evaluated": 8,
+  "metrics": {
+    "category_accuracy": 1.0,
+    "tag_precision": 0.3861,
+    "tag_recall": 0.5,
+    "tag_f1": 0.4225,
+    "sensitive_info_flag_accuracy": 0.375,
+    "schema_compliance": 1.0
+  },
+  "latency_summary_ms": {
+    "mean_ocr_ms": 0.0,
+    "mean_rules_ms": 0.84,
+    "mean_embedding_ms": 116.56,
+    "mean_classification_ms": 6289.07,
+    "mean_total_ms": 6290.13
+  },
+  "footprint": {
+    "target_model_size_mb": "~90 MB (all-MiniLM-L6-v2 ONNX/PyTorch weights + rules)",
+    "memory_usage_rss_mb": 2062.15,
+    "device": "CPU",
+    "vlm_or_llm_required": false
+  },
+  "per_target_results": [
+    {
+      "filename": "ss_001.jpg",
+      "expected_category": "Connectivity",
+      "predicted_category": "Connectivity",
+      "category_match": true,
+      "tag_precision": 0.2,
+      "tag_recall": 0.25,
+      "tag_f1": 0.2222,
+      "sensitive_flags_match": true,
+      "intent": "Save Wi-Fi network credentials and password for local connection",
+      "summary": "Wi-Fi network credentials and password for Airtel_runu_7550 router.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 0.22,
+        "embedding_latency_ms": 70.09,
+        "classification_latency_ms": 6220.83,
+        "total_latency_ms": 6221.13,
+        "classification_confidence": 0.719,
+        "classification_ambiguous": false,
+        "classification_margin": 0.4975
+      }
+    },
+    {
+      "filename": "ss_002.jpg",
+      "expected_category": "Payment",
+      "predicted_category": "Payment",
+      "category_match": true,
+      "tag_precision": 0.5,
+      "tag_recall": 0.5,
+      "tag_f1": 0.5,
+      "sensitive_flags_match": true,
+      "intent": "Verify successful UPI transaction receipt and payment status",
+      "summary": "UPI payment receipt of ₹689.00 paid to BRAINGROW EDUSERV PRIVATE LIMITED.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 0.48,
+        "embedding_latency_ms": 90.8,
+        "classification_latency_ms": 6281.01,
+        "total_latency_ms": 6281.65,
+        "classification_confidence": 0.6908,
+        "classification_ambiguous": false,
+        "classification_margin": 0.4569
+      }
+    },
+    {
+      "filename": "ss_003.jpg",
+      "expected_category": "Education",
+      "predicted_category": "Education",
+      "category_match": true,
+      "tag_precision": 0.2222,
+      "tag_recall": 0.5,
+      "tag_f1": 0.3077,
+      "sensitive_flags_match": false,
+      "intent": "Reference academic course syllabus and reading list",
+      "summary": "KIIT Deep Learning course syllabus covering units I-V and textbooks.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 1.7,
+        "embedding_latency_ms": 105.49,
+        "classification_latency_ms": 6372.99,
+        "total_latency_ms": 6375.07,
+        "classification_confidence": 0.569,
+        "classification_ambiguous": false,
+        "classification_margin": 0.33
+      }
+    },
+    {
+      "filename": "ss_008.jpg",
+      "expected_category": "Shopping",
+      "predicted_category": "Shopping",
+      "category_match": true,
+      "tag_precision": 0.1667,
+      "tag_recall": 0.5,
+      "tag_f1": 0.25,
+      "sensitive_flags_match": false,
+      "intent": "Browse menu item options and prices for ordering",
+      "summary": "MD Combo food menu item listings and prices.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 1.55,
+        "embedding_latency_ms": 137.01,
+        "classification_latency_ms": 6259.56,
+        "total_latency_ms": 6261.46,
+        "classification_confidence": 0.3736,
+        "classification_ambiguous": false,
+        "classification_margin": 0.157
+      }
+    },
+    {
+      "filename": "ss_0011.jpg",
+      "expected_category": "Travel",
+      "predicted_category": "Travel",
+      "category_match": true,
+      "tag_precision": 0.5,
+      "tag_recall": 0.5,
+      "tag_f1": 0.5,
+      "sensitive_flags_match": false,
+      "intent": "Track flight schedule and boarding pass details",
+      "summary": "IndiGo flight boarding pass to Guwahati.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 0.44,
+        "embedding_latency_ms": 147.45,
+        "classification_latency_ms": 6288.3,
+        "total_latency_ms": 6288.87,
+        "classification_confidence": 0.741,
+        "classification_ambiguous": false,
+        "classification_margin": 0.5946
+      }
+    },
+    {
+      "filename": "ss_0021.jpg",
+      "expected_category": "Communication",
+      "predicted_category": "Communication",
+      "category_match": true,
+      "tag_precision": 0.5,
+      "tag_recall": 0.5,
+      "tag_f1": 0.5,
+      "sensitive_flags_match": false,
+      "intent": "View chat notifications and unread messages",
+      "summary": "WhatsApp/Telegram chat notification overview.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 0.5,
+        "embedding_latency_ms": 132.78,
+        "classification_latency_ms": 6295.67,
+        "total_latency_ms": 6296.32,
+        "classification_confidence": 0.735,
+        "classification_ambiguous": false,
+        "classification_margin": 0.6053
+      }
+    },
+    {
+      "filename": "ss_0028.jpg",
+      "expected_category": "Coding",
+      "predicted_category": "Coding",
+      "category_match": true,
+      "tag_precision": 0.5,
+      "tag_recall": 0.5,
+      "tag_f1": 0.5,
+      "sensitive_flags_match": true,
+      "intent": null,
+      "summary": "VS Code Express.js controller code snippet.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 0.74,
+        "embedding_latency_ms": 99.85,
+        "classification_latency_ms": 6236.57,
+        "total_latency_ms": 6237.49,
+        "classification_confidence": 0.3438,
+        "classification_ambiguous": true,
+        "classification_margin": 0.0693
+      }
+    },
+    {
+      "filename": "ss_0030.jpg",
+      "expected_category": "Work & Career",
+      "predicted_category": "Work & Career",
+      "category_match": true,
+      "tag_precision": 0.5,
+      "tag_recall": 0.75,
+      "tag_f1": 0.6,
+      "sensitive_flags_match": false,
+      "intent": "Check hackathon event details and registration deadline",
+      "summary": "OpenAI Hackathon event announcement details.",
+      "timing_ms": {
+        "ocr_latency_ms": 0.0,
+        "rules_latency_ms": 1.06,
+        "embedding_latency_ms": 149.01,
+        "classification_latency_ms": 6357.67,
+        "total_latency_ms": 6359.05,
+        "classification_confidence": 0.7203,
+        "classification_ambiguous": false,
+        "classification_margin": 0.5315
+      }
+    }
+  ]
+}
